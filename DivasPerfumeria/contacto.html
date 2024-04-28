@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DivasPerfumeria</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+        <!--Caja de ofertas-->
+    <div class="contenedor__caja">
+        <div class="caja">
+            <div class="contenedor__caja--texto">
+                <h4 class="caja__texto">⏰ ¡¡Aprovecha Nuestras Ofertas y Descuentos!! 🤯</h4>
+            </div>
+
+            <div class="contenedor__login">
+                <a href="login.html"> <img class="img_login" src="img/login.png" alt="login"></a>
+                <a href="#"><img class="img_login" src="img/carritoCompras.png" alt="carrito"></a>
+            </div>
+        </div>
+    </div><!--Cierrer caja de ofertas-->
+
+    <!--Header-->
+    <div class="caja__header">
+        <div class="contenedor">
+
+            <header class="header">
+
+                <div class="logo">
+                    <a href="index.html">
+                        <img class="logo__imagen" src="/img/Logo.jpg" alt="logo">
+                    </a>
+                </div>
+
+                <div class="buscar">
+                    <input class="buscar__caja" type="text" placeholder="Buscar">
+                </div>
+
+                <nav class="navegacion">
+                    <ul class="navegacion__menu">
+                        <li class="navegacion__menu--item"><a class="menu__link" href="#">Nosotros</a></li>
+                        <li class="navegacion__menu--item navegacion__menu--item-modi"><a class="submenu__link" href="#">Productos</a></li>
+                        <li class="navegacion__menu--item"><a class="menu__link" href="contacto.html">Contacto</a></li>
+                    </ul><!--Cirre Menu-->
+                </nav>
+
+            </header><!--Cierre Header-->
+
+        </div><!--Cierre contenedor-->
+    </div><!--Cierre caja__header-->
+
+
+    <div class="banner">
+        <div class="banner__degradado">
+            <div class="banner__texto">
+                <h1 class="texto__bold">Divas <span class="texto">Perfumeria</span></h1>
+                <h2 class="subtexto"><span class="subtexto__modi">Donde cada Mujer brilla</span> con su propia Esencia</h2>
+
+            </div>
+        </div>
+    </div> <!--Cierre Banner-->
+
+    <main class="main">
+
+        <h1 class="contacto__titulo">Contacto</h1>
+        <div class="contacto__imagen"></div>
+
+        <form class="formulario">
+            <div class="contenedor__items">
+                <div class="formulario__item">
+                    <label class="label__item" for="nombre">Nombre:</label>
+                    <input class="input__item" type="text" id="nombre" placeholder="Nombre">
+                </div>
+                <div class="formulario__item">
+                    <label class="label__item" for="telefono">Telefono:</label>
+                    <input class="input__item" type="text" id="nombre" placeholder="Telefono">
+                </div>
+                <div class="formulario__item formulario__item--modi">
+                    <label class="label__item" for="email">E-mail:</label>
+                    <input class="input__item" type="text" id="email" placeholder="E-mail">
+                </div>
+                <div class="formulario__item formulario__item--modi2">
+                    <label class="label__item" for="mensaje">Mensaje:</label>
+                    <textarea class="input__item input__item--modi" id="mensaje"></textarea>
+                </div>
+            </div><!--Cierre contenedor de items-->
+
+            <div class="boton__contenedor boton__contenedor--modi">
+                <button class="boton boton--modi" type="button">Enviar  </button>          
+            </div>
+        </form>
+
+    </main>
+
+    <footer class="footer">
+        <div class="contenedor__footer">            
+            <h1 class="texto__bold">Divas <span class="texto">Perfumeria</span></h1>
+            <nav class="navegacion">
+                <ul class="navegacion__menu">
+                    <li class="navegacion__menu--item"><a class="menu__link--footer" href="#">Nosotros</a></li>
+                    <li class="navegacion__menu--item navegacion__menu--item-modi"><a class="submenu__link--footer" href="#">Productos</a></li>
+                    <li class="navegacion__menu--item"><a class="menu__link--footer menu__link--footer-modi" href="contacto.html">Contacto</a></li>
+                </ul><!--Cirre Menu-->
+            </nav>
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
