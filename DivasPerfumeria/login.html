@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DivasPerfumeria</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="logearse">
+
+    <div class="contenedor__caja">
+        <div class="caja">
+            <div class="contenedor__caja--texto">
+                <h4 class="caja__texto">⏰ ¡¡Aprovecha Nuestras Ofertas y Descuentos!! 🤯</h4>
+            </div>
+
+            <div class="contenedor__login">
+                <a href="login.html"> <img class="img_login" src="img/login.png" alt="login"></a>
+                <a href="#"><img class="img_login" src="img/carritoCompras.png" alt="carrito"></a>
+            </div>
+        </div>
+    </div>
+    <!--Header-->
+    <div class="contenedor"><!--Caja de ofertas-->
+
+        <header class="header">
+
+            <div class="logo">
+                <a href="index.html">
+                    <img class="logo__imagen" src="/img/Logo.jpg" alt="logo">
+                </a>
+            </div>
+
+            <div class="buscar">
+
+            </div>
+
+            <nav class="navegacion">
+                <ul class="navegacion__menu">
+                    <li class="navegacion__menu--item"><a class="menu__link" href="index.html">Inicio</a></li>
+                    <li class="navegacion__menu--item"><a class="menu__link menu__link-logeo"
+                            href="contacto.html">Contacto</a></li>
+                </ul><!--Cirre Menu-->
+            </nav>
+
+        </header><!--Cierre Header-->
+
+        <div class="contenedor__logearse">
+            <h1 class="texto__bold">Divas <span class="texto texto__login">Perfumeria</span></h1>
+            <main class="logeo">
+                <form class="formulario__logeo">
+                    <h3 class="texto__logeo">Iniciar Sesión</h3>
+                    <div class="formulario__logeo__item">
+                        <label class="legeo__label" for="usuario">Usuario:</label>
+                        <input class="input__item usuario" type="text" id="usuario" placeholder="Usuario">
+                    </div>
+                    <div class="formulario__logeo__item">                        
+                        <label class="legeo__label" for="contraseña">Contraseña</label>
+                        <input class="input__item contraseña" type="password" id="contraseña" placeholder="Contraseña">
+                    </div>
+                    <div class="boton__contenedor">
+                        <button type="submit" class="boton boton_login" >Ingresar</button>
+                    </div>
+
+                </form>
+
+            </main>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+
+        <div class="contenedor__footer">
+            <div class="footer__contenido">
+                <h1 class="texto__bold texto__bold-modi">Divas <span class="texto">Perfumeria</span></h1>
+                <nav class="navegacion">
+                    <ul class="navegacion__menu">
+                        <li class="navegacion__menu--item"><a class="menu__link--footer" href="#">Nosotros</a></li>
+                        <li class="navegacion__menu--item navegacion__menu--item-modi"><a class="submenu__link--footer"
+                                href="#">Productos</a></li>
+                        <li class="navegacion__menu--item"><a class="menu__link--footer"
+                                href="contacto.html">Contacto</a></li>
+                    </ul><!--Cirre Menu-->
+                </nav>
+            </div>
+            <div class="contenedor_redes">
+                <a href="#"><img class="icono_redes" src="img/facebook.svg" alt="facebook"></a>
+                <a href="#"><img class="icono_redes" src="img/instagran.svg" alt="instagran"></a>
+            </div>
+
+        </div>
+
+    </footer>
+    <script src="javaScritp/scriptLogeo.js"></script>
+</body>
+
+</html>
